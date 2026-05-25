@@ -1,0 +1,349 @@
+{
+  "metadata": {
+    "tipografia": "AN 2.1",
+    "altura_base_comun": 0.75,
+    "unidad_base": "modulo AN",
+    "descripcion": "Caracteres base AN 2.1 medidos desde CAD. Anchos incluyen cuadrícula. Area solo pintura.",
+    "calibracion_ancho_4000_mm": {
+      "descripcion": "Anchura real por carácter a altura 4000 mm. Campo añadido para construir geometría sin desescalar x_min/x_max.",
+      "fuente": "Tabla CARACTERES 4M.xlsx + criterios de completado definidos por Carlos Javier Haro Oliva",
+      "unidad": "mm",
+      "altura_referencia_mm": 4000,
+      "notas": [
+        "Los campos x_min/x_max se conservan como modelo base histórico.",
+        "Para el motor nuevo, usar ancho_4000_mm * altura_mm / 4000.",
+        "ARROW_DOWN no se añade porque no existe geometría base en este JSON."
+      ]
+    }
+  },
+  "caracteres": {
+    "A": {
+      "ancho_base": 0.34,
+      "x_min": 0.04,
+      "x_max": 0.3,
+      "area_base": 0.0831,
+      "ancho_4000_mm": 1036
+    },
+    "B": {
+      "ancho_base": 0.28,
+      "x_min": 0.03,
+      "x_max": 0.24,
+      "area_base": 0.1058,
+      "ancho_4000_mm": 1096
+    },
+    "C": {
+      "ancho_base": 0.28,
+      "x_min": 0.03,
+      "x_max": 0.24,
+      "area_base": 0.0664,
+      "ancho_4000_mm": 1096
+    },
+    "D": {
+      "ancho_base": 0.28,
+      "x_min": 0.04,
+      "x_max": 0.24,
+      "area_base": 0.0909,
+      "ancho_4000_mm": 1096
+    },
+    "E": {
+      "ancho_base": 0.28,
+      "x_min": 0.03,
+      "x_max": 0.22,
+      "area_base": 0.0783,
+      "ancho_4000_mm": 992
+    },
+    "F": {
+      "ancho_base": 0.25,
+      "x_min": 0.03,
+      "x_max": 0.22,
+      "area_base": 0.0645,
+      "ancho_4000_mm": 992
+    },
+    "G": {
+      "ancho_base": 0.25,
+      "x_min": 0.03,
+      "x_max": 0.24,
+      "area_base": 0.0805,
+      "ancho_4000_mm": 1096
+    },
+    "H": {
+      "ancho_base": 0.27,
+      "x_min": 0.03,
+      "x_max": 0.24,
+      "area_base": 0.0857,
+      "ancho_4000_mm": 1096
+    },
+    "I": {
+      "ancho_base": 0.12,
+      "x_min": 0.04,
+      "x_max": 0.09,
+      "area_base": 0.0361,
+      "ancho_4000_mm": 220
+    },
+    "J": {
+      "ancho_base": 0.24,
+      "x_min": 0.02,
+      "x_max": 0.22,
+      "area_base": 0.0483,
+      "ancho_4000_mm": 992
+    },
+    "K": {
+      "ancho_base": 0.28,
+      "x_min": 0.04,
+      "x_max": 0.24,
+      "area_base": 0.0824,
+      "ancho_4000_mm": 1096
+    },
+    "L": {
+      "ancho_base": 0.24,
+      "x_min": 0.03,
+      "x_max": 0.21,
+      "area_base": 0.0504,
+      "ancho_4000_mm": 992
+    },
+    "M": {
+      "ancho_base": 0.31,
+      "x_min": 0.03,
+      "x_max": 0.28,
+      "area_base": 0.124,
+      "ancho_4000_mm": 1256
+    },
+    "N": {
+      "ancho_base": 0.27,
+      "x_min": 0.04,
+      "x_max": 0.24,
+      "area_base": 0.1063,
+      "ancho_4000_mm": 1096
+    },
+    "O": {
+      "ancho_base": 0.27,
+      "x_min": 0.03,
+      "x_max": 0.25,
+      "area_base": 0.0848,
+      "ancho_4000_mm": 1144
+    },
+    "P": {
+      "ancho_base": 0.28,
+      "x_min": 0.03,
+      "x_max": 0.24,
+      "area_base": 0.0818,
+      "ancho_4000_mm": 1096
+    },
+    "Q": {
+      "ancho_base": 0.28,
+      "x_min": 0.03,
+      "x_max": 0.25,
+      "area_base": 0.0866,
+      "ancho_4000_mm": 1144
+    },
+    "R": {
+      "ancho_base": 0.27,
+      "x_min": 0.03,
+      "x_max": 0.25,
+      "area_base": 0.1026,
+      "ancho_4000_mm": 1096
+    },
+    "S": {
+      "ancho_base": 0.28,
+      "x_min": 0.03,
+      "x_max": 0.24,
+      "area_base": 0.0777,
+      "ancho_4000_mm": 1096
+    },
+    "T": {
+      "ancho_base": 0.24,
+      "x_min": 0.03,
+      "x_max": 0.21,
+      "area_base": 0.0593,
+      "ancho_4000_mm": 992
+    },
+    "U": {
+      "ancho_base": 0.28,
+      "x_min": 0.03,
+      "x_max": 0.24,
+      "area_base": 0.0805,
+      "ancho_4000_mm": 1096
+    },
+    "V": {
+      "ancho_base": 0.31,
+      "x_min": 0.04,
+      "x_max": 0.28,
+      "area_base": 0.0764,
+      "ancho_4000_mm": 1256
+    },
+    "W": {
+      "ancho_base": 0.34,
+      "x_min": 0.03,
+      "x_max": 0.31,
+      "area_base": 0.1291,
+      "ancho_4000_mm": 1424
+    },
+    "X": {
+      "ancho_base": 0.28,
+      "x_min": 0.03,
+      "x_max": 0.25,
+      "area_base": 0.0783,
+      "ancho_4000_mm": 1096
+    },
+    "Y": {
+      "ancho_base": 0.34,
+      "x_min": 0.03,
+      "x_max": 0.31,
+      "area_base": 0.0665,
+      "ancho_4000_mm": 1368
+    },
+    "Z": {
+      "ancho_base": 0.27,
+      "x_min": 0.03,
+      "x_max": 0.24,
+      "area_base": 0.0824,
+      "ancho_4000_mm": 1096
+    },
+    "0": {
+      "ancho_base": 0.27,
+      "x_min": 0.03,
+      "x_max": 0.25,
+      "area_base": 0.0821,
+      "ancho_4000_mm": 1144
+    },
+    "1": {
+      "ancho_base": 0.15,
+      "x_min": 0.03,
+      "x_max": 0.12,
+      "area_base": 0.0476,
+      "ancho_4000_mm": 392
+    },
+    "2": {
+      "ancho_base": 0.28,
+      "x_min": 0.04,
+      "x_max": 0.24,
+      "area_base": 0.0794,
+      "ancho_4000_mm": 1096
+    },
+    "3": {
+      "ancho_base": 0.28,
+      "x_min": 0.03,
+      "x_max": 0.25,
+      "area_base": 0.0709,
+      "ancho_4000_mm": 1096
+    },
+    "4": {
+      "ancho_base": 0.28,
+      "x_min": 0.02,
+      "x_max": 0.25,
+      "area_base": 0.0785,
+      "ancho_4000_mm": 1192
+    },
+    "5": {
+      "ancho_base": 0.28,
+      "x_min": 0.03,
+      "x_max": 0.24,
+      "area_base": 0.0825,
+      "ancho_4000_mm": 1096
+    },
+    "6": {
+      "ancho_base": 0.28,
+      "x_min": 0.03,
+      "x_max": 0.24,
+      "area_base": 0.0726,
+      "ancho_4000_mm": 1096
+    },
+    "7": {
+      "ancho_base": 0.28,
+      "x_min": 0.05,
+      "x_max": 0.25,
+      "area_base": 0.0559,
+      "ancho_4000_mm": 1096
+    },
+    "8": {
+      "ancho_base": 0.28,
+      "x_min": 0.04,
+      "x_max": 0.24,
+      "area_base": 0.0944,
+      "ancho_4000_mm": 1096
+    },
+    "9": {
+      "ancho_base": 0.28,
+      "x_min": 0.03,
+      "x_max": 0.24,
+      "area_base": 0.0753,
+      "ancho_4000_mm": 1096
+    },
+    ".": {
+      "ancho_base": 0.09,
+      "x_min": 0.03,
+      "x_max": 0.07,
+      "area_base": 0.034,
+      "ancho_4000_mm": 256
+    },
+    "CUADRADO": {
+      "ancho_base": 0.09,
+      "x_min": 0.0,
+      "x_max": 0.09,
+      "area_base": 0.084,
+      "ancho_4000_mm": 564
+    },
+    "SLASH": {
+      "ancho_base": 0.37,
+      "x_min": 0.0,
+      "x_max": 0.37,
+      "area_base": 0.0521
+    },
+    "ROM_I": {
+      "ancho_base": 0.34,
+      "x_min": 0.06,
+      "x_max": 0.28,
+      "area_base": 0.081,
+      "ancho_4000_mm": 1114
+    },
+    "ROM_II": {
+      "ancho_base": 0.56,
+      "x_min": 0.06,
+      "x_max": 0.58,
+      "area_base": 0.1652,
+      "ancho_4000_mm": 2633
+    },
+    "ROM_III": {
+      "ancho_base": 0.74,
+      "x_min": 0.06,
+      "x_max": 0.68,
+      "area_base": 0.2333,
+      "ancho_4000_mm": 3139
+    },
+    "ARROW_LEFT": {
+      "ancho_base": 0.89,
+      "x_min": 0.06,
+      "x_max": 0.83,
+      "area_base": 0.0568,
+      "ancho_4000_mm": 4000
+    },
+    "ARROW_UPLEFT": {
+      "ancho_base": 0.65,
+      "x_min": 0.04,
+      "x_max": 0.61,
+      "area_base": 0.057,
+      "ancho_4000_mm": 2921
+    },
+    "ARROW_UP": {
+      "ancho_base": 0.28,
+      "x_min": 0.02,
+      "x_max": 0.25,
+      "area_base": 0.0574,
+      "ancho_4000_mm": 1206
+    },
+    "ARROW_UPRIGHT": {
+      "ancho_base": 0.65,
+      "x_min": 0.04,
+      "x_max": 0.61,
+      "area_base": 0.0572,
+      "ancho_4000_mm": 2921
+    },
+    "ARROW_RIGHT": {
+      "ancho_base": 0.89,
+      "x_min": 0.06,
+      "x_max": 0.83,
+      "area_base": 0.057,
+      "ancho_4000_mm": 4000
+    }
+  }
+}
